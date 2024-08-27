@@ -6,10 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     <script type="module" crossorigin src="/js-new-hw-11/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/js-new-hw-11/assets/index-DvPDDfy5.css">
+    <link rel="modulepreload" crossorigin href="/js-new-hw-11/assets/vendor-5ObWk2rO.js">
+    <link rel="stylesheet" crossorigin href="/js-new-hw-11/assets/vendor-DumFYO8Z.css">
+    <link rel="stylesheet" crossorigin href="/js-new-hw-11/assets/index-CUCMAHwU.css">
   </head>
   <body>
-    <main></main>
+    <main>
+      <form class="form" action="">
+        <label for="search">Write for search</label>
+        <input
+          type="text"
+          id="search"
+          name="search"
+          placeholder="What you find?"
+        />
+
+        <button class="submit-button" type="submit">Search</button>
+      </form>
+      <div class="loader"></div>
+      <ul class="gallery-list"></ul>
+    </main>
 
   </body>
 </html>
